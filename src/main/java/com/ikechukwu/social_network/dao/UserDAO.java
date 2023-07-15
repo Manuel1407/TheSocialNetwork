@@ -1,7 +1,7 @@
 package com.ikechukwu.social_network.dao;
 
-import model.User;
-import util.DBConnection;
+import com.ikechukwu.social_network.model.User;
+import com.ikechukwu.social_network.util.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

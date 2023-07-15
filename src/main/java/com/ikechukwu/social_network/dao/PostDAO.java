@@ -1,7 +1,7 @@
 package com.ikechukwu.social_network.dao;
 
-import model.Post;
-import util.DBConnection;
+import com.ikechukwu.social_network.model.Post;
+import com.ikechukwu.social_network.util.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

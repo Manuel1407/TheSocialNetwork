@@ -11,6 +11,15 @@ public class Post {
     public Post() {
     }
 
+    public Post(int id, int userId, String messageBody, int numOfComments, int numOfLikes) {
+        super();
+        this.id = id;
+        this.userId = userId;
+        this.messageBody = messageBody;
+        this.numOfComments = numOfComments;
+        this.numOfLikes = numOfLikes;
+    }
+
     public Post(int userId, String messageBody, int numOfComments, int numOfLikes) {
         this.userId = userId;
         this.messageBody = messageBody;
